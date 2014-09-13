@@ -1,0 +1,20 @@
+<package>
+  <description brief="slave_master_controller_pkg">
+
+     slave_master_controller_pkg
+
+  </description>
+  <author>Henry Lu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/slave_master_controller_pkg</url>
+  <depend package="pr2_controller_interface"/>
+  <depend package="pr2_mechanism_model"/>
+  <depend package="pluginlib"/>
+  <depend package="control_toolbox"/>
+  <export>
+    <pr2_controller_interface plugin="${prefix}/controller_plugins.xml" />
+  </export>
+  <rosdep name="eigen"/>
+  <depend package="kdl"/>
+</package>

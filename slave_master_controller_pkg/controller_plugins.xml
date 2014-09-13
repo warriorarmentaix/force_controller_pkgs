@@ -1,0 +1,5 @@
+<library path="lib/libslave_master_controller_lib">
+  <class name="slave_master_controller_pkg/SlaveMasterControllerPlugin" 
+         type="slave_master_controller_ns::SlaveMasterControllerClass"           
+         base_class_type="pr2_controller_interface::Controller" />
+</library>
